@@ -67,6 +67,21 @@ The engine demonstrates high-fidelity **Syntax Mastery**. Character combinations
 
 ---
 
+The Technical Breakdown of My Model (The Architecture)
+ "My model contains 5.94 million parameters" They are split into three core functional areas:
+
+The Embedding Layers (~11% of parameters):
+
+These act as the model's dictionary look-up table. They map your 2,097 BPE tokens into continuous 256-dimensional vector spaces so the network can understand the relationships between words geometrically.
+
+The Transformer Blocks (~70% of parameters):
+
+This is the main computational engine, split across 6 consecutive layers. Inside each layer, your parameters live inside the Multi-Head Attention matrices (calculating which words relate to each other in a sentence) and the Feed-Forward Networks (processing the meaning of those relationships).
+
+The Language Model Head (~19% of parameters):
+
+This is the final linear layer that projects the internal hidden states back out into your vocabulary size, allowing the model to calculate the probability scores for the next predicted token.
+
 ## 💻 Repository Directory Layout
 
 ```text
