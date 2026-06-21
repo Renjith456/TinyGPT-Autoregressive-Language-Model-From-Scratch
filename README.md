@@ -1,5 +1,3 @@
-# TinyGPT-Autoregressive-Language-Model-From-Scratch
-A custom 6-layer, multi-head causal Transformer language model built entirely from scratch in PyTorch, integrated with a trained Byte Pair Encoding (BPE) tokenizer and optimized with advanced regularization techniques to generate fluent Shakespearean verse.
 # TinyGPT: Causal Multi-Head Attention Language Model From Scratch
 
 TinyGPT is an autoregressive, decoder-only transformer language model built entirely from scratch using PyTorch. The architecture scales out of minimal prototype boundaries into a regularized, multi-layered text generation framework. The engine features an explicitly trained Byte Pair Encoding (BPE) subword tokenizer trained on over 2.1 million sequence tokens, utilizing aggressive optimization mechanics to achieve stable language syntax synthesis without memorization collapse.
